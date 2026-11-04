@@ -15,3 +15,8 @@ Console.Write("Introduce el segundo número:");
 num4 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("La suma de " + num3 + " y " + num4 + " es: " + (num3 + num4));
+
+static int Sumar(int a, int b)
+{
+    return a + b;
+}   
